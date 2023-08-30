@@ -1,10 +1,10 @@
+.EXPORT_ALL_VARIABLES:
+
 SERVER_ADDRESS=localhost
 SERVER_PORT=8181
-#DB_USER
-#DB_PASSWORD
-#DB_ADDRESS=localhost
+DB_ADDRESS=localhost
 DB_PORT=3306
 DB_NAME=banking
 
 run:
-    $(shell go run ./main.go)
+	go run main.go
